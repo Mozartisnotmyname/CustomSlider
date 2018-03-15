@@ -1,2 +1,6 @@
 CustomSlider:
-1、可以随意
+1、可以随意设置slider bar和thumb的颜色长度宽度。
+2、鼠标追踪，鼠标离开slider,thumb自动隐藏，鼠标回到slider,thumb自动出现。
+3、点击thumb会有显示效果。
+
+运行效果：
