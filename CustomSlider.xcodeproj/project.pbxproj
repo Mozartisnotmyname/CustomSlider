@@ -14,6 +14,9 @@
 		A7A496EE205A46BC00625797 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A496ED205A46BC00625797 /* main.m */; };
 		A7A496F9205A46BC00625797 /* CustomSliderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A496F8205A46BC00625797 /* CustomSliderTests.m */; };
 		A7A49704205A46BC00625797 /* CustomSliderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A49703205A46BC00625797 /* CustomSliderUITests.m */; };
+		A7A49722205A47A200625797 /* NSColor+Hexa.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A4971C205A47A200625797 /* NSColor+Hexa.m */; };
+		A7A49723205A47A200625797 /* CustomSliderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A49720205A47A200625797 /* CustomSliderCell.m */; };
+		A7A49724205A47A200625797 /* CustomSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A49721205A47A200625797 /* CustomSlider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,12 @@
 		A7A496FF205A46BC00625797 /* CustomSliderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomSliderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7A49703205A46BC00625797 /* CustomSliderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomSliderUITests.m; sourceTree = "<group>"; };
 		A7A49705205A46BC00625797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7A4971C205A47A200625797 /* NSColor+Hexa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+Hexa.m"; sourceTree = "<group>"; };
+		A7A4971D205A47A200625797 /* CustomSliderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSliderCell.h; sourceTree = "<group>"; };
+		A7A4971E205A47A200625797 /* CustomSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSlider.h; sourceTree = "<group>"; };
+		A7A4971F205A47A200625797 /* NSColor+Hexa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+Hexa.h"; sourceTree = "<group>"; };
+		A7A49720205A47A200625797 /* CustomSliderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSliderCell.m; sourceTree = "<group>"; };
+		A7A49721205A47A200625797 /* CustomSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSlider.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +109,7 @@
 		A7A496E0205A46BC00625797 /* CustomSlider */ = {
 			isa = PBXGroup;
 			children = (
+				A7A4971B205A47A200625797 /* CustomSlider */,
 				A7A496E1205A46BC00625797 /* AppDelegate.h */,
 				A7A496E2205A46BC00625797 /* AppDelegate.m */,
 				A7A496E4205A46BC00625797 /* ViewController.h */,
@@ -129,6 +139,19 @@
 				A7A49705205A46BC00625797 /* Info.plist */,
 			);
 			path = CustomSliderUITests;
+			sourceTree = "<group>";
+		};
+		A7A4971B205A47A200625797 /* CustomSlider */ = {
+			isa = PBXGroup;
+			children = (
+				A7A4971C205A47A200625797 /* NSColor+Hexa.m */,
+				A7A4971F205A47A200625797 /* NSColor+Hexa.h */,
+				A7A4971D205A47A200625797 /* CustomSliderCell.h */,
+				A7A49720205A47A200625797 /* CustomSliderCell.m */,
+				A7A49721205A47A200625797 /* CustomSlider.m */,
+				A7A4971E205A47A200625797 /* CustomSlider.h */,
+			);
+			path = CustomSlider;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,8 +286,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7A49723205A47A200625797 /* CustomSliderCell.m in Sources */,
+				A7A49724205A47A200625797 /* CustomSlider.m in Sources */,
 				A7A496E6205A46BC00625797 /* ViewController.m in Sources */,
 				A7A496EE205A46BC00625797 /* main.m in Sources */,
+				A7A49722205A47A200625797 /* NSColor+Hexa.m in Sources */,
 				A7A496E3205A46BC00625797 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
